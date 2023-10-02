@@ -47,6 +47,8 @@ switch ($level) {
         echo "bad";
 }
 
+echo "完整"
+
 // $level="c";
 // if ($score >=90 && $score<=100) {
 //     $level="A";
