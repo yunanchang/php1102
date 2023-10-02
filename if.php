@@ -14,19 +14,23 @@ if ($score >= 60) {
 
 
 
-$level="c";
-if ($score >=90 && $score<=100) {
-    $level="A";
-}if ($score >=80 && $score<=89) {
-    $level="B";
-}if ($score >=70 && $score<=79) {
-    $level="C";
-}if ($score>60 && $score<=69) {
-    $level="D";
-}if ($score>0 && $score<=59) {
-    $level="E";
+$level = "c";
+if ($score >= 90 && $score <= 100) {
+    $level = "A";
 }
-echo '成績等級為:'.$level;
+if ($score >= 80 && $score <= 89) {
+    $level = "B";
+}
+if ($score >= 70 && $score <= 79) {
+    $level = "C";
+}
+if ($score > 60 && $score <= 69) {
+    $level = "D";
+}
+if ($score > 0 && $score <= 59) {
+    $level = "E";
+}
+echo '成績等級為:' . $level;
 echo "<br>";
 
 switch ($level) {
@@ -36,9 +40,9 @@ switch ($level) {
     case 'B':
         echo "GOOD";
         break;
-        case 'C':
-            echo "SOSO";
-            break;
+    case 'C':
+        echo "SOSO";
+        break;
     default:
         echo "bad";
 }
