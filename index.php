@@ -34,7 +34,7 @@
     }
     echo $a;
     echo $b;
-    echo "cc"
+    echo "ccd2"
     ?>
 
 </body>
