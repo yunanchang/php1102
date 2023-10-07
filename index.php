@@ -24,7 +24,7 @@
     echo $a;
     echo $b;
 
-    $change = '交換後';
+    $change = '交換後=';
     echo $change;
     if ($a >= 10) {
         $a = 50;
